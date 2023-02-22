@@ -1,4 +1,3 @@
-
 INTRODUCTION/BACKGROUND
 During hominin evolution, it is thought that the introduction of meat into 
 the hominin diet provided a new, calorically rich food source that 
