@@ -42,39 +42,6 @@ duplicates above. Not all of these species were examined within this analysis.
 Only the species available on ensemble.org were considered. 
 
 # PHYLOGENETIC TREE
-On February 9th, 2023, the aligned TAS1R3 DNA sequences were opened in 
-TextWrangler then copied into RAxML (RAXMLv1.0.0, 
-https://raxml-ng.vital-it.ch/#/). The sequences were pasted into the sequence
-alignment box. No constraint tree was selected. 
-
-The following settings were selected for the evolutionary model:
-Unpartitioned model
-Datatype: DNA
-Substitution matrix: GTR
-Stationary bse frequences: ML estimate
-Proportion of invariant sites: not selected
-Among-site rate heterogeneity: GAMMA
-Number of rate categories: 4
-GAMMA category rates: mean
-Ascertainment bias correction: none  
-
-The following settings were selected for the analysis: 
-ML tree search: selected
-Optimize: selected topology, branch lengths AND model
-Parsimony: 10 trees
-Random: 10 trees
-No newick format tree was used. 
-
-The following settings were selected for the bootstraping: 
-Number of replicates: fixed
-Number of replicates: 100
-
-As only 100 replicates were allowed, these exact settings were repeated 5 
-times. The subsequent output was unclear with unlikely bootstrap values. 
-It was determined to attempt another program. 
-
-
-# PHYLOGENETIC TREE 2
 The DNA sequence alignments were converted to .nexus file format and input 
 into PAUP (Version 4.0a (build 169)) on February 9, 2023. 
 
@@ -127,3 +94,5 @@ Human_TAS1R1_orthologues_DNA_aligned_nexus.tre
 in the directory: 
 Documents/research_projects/umami_receptor/umami_receptor_runs/analysis_TAS1R1
 /b_tree_files. 
+
+# PAML ANALYSES 

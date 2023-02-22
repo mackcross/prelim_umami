@@ -1,8 +1,10 @@
 # PHYLOGENETIC TREE
-On February 10th, the aligned DNA sequences for both TAS1R1 and TAS1R3 were concatenated. They were saved into a Fasta file format and titled "Human_TAS1R13_orthologues_DNA_aligned_concatenated_fasta". This file was saved into the following directory: 
+On February 10th, the aligned DNA sequences for both TAS1R1 and TAS1R3 were combined into one file. They were saved 
+into a Fasta file format 
+and titled "Human_TAS1R13_orthologues_DNA_aligned_concatenated_fasta". This file was saved into the following directory: 
 umami_receptor_umami_receptor_runs/analysis_TAS1R1andTAS1R3_concatenated. 
 
-Once concatenated into one file, this file was converted to Fasta file format and input 
+Once combined into one file, this file was converted to Fasta file format and input 
 into PAUP (Version 4.0a (build 169)). 
 
 Likelihood analysis then Bootstrap/Jackknife Analysis were selected. The following settings were chosen:
@@ -47,4 +49,4 @@ Selected "Collapse branches of effectively zero length when searching"
 Estimation of ancestral states: 
 	Selected "Marginal" 
 
-The file was saved as 
+
