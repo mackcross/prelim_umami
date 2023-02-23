@@ -84,7 +84,8 @@ been completed, I have shown an example of a similar phylogeny which was a
 reconstruction of primate diel pattern using opsin genes, as shown below:
 Using the results from my PAML analyses, I will create a phylogenetic tree 
 such as this which will be annotated to indicate any significant shifts in 
-selection for these genes on the lineage in which this shift occurred.
+selection for these genes on the lineage in which this shift occurred. The 
+discussion of this image is show below alongside the image. 
 
 # CONCLUSION
 My initial work demonstrates a relatively uncomplicated gene history for 
