@@ -112,3 +112,29 @@ April 25, 2013, 4. DOI:10.1371/journal.pone.0062174.
 Leonard, William. R., Josh J. Snodgrass, and Marcia L. Robertson. “Effects 
 of brain evolution on human nutrition and metabolism.” Annu. Rev. Nutr, 
 August 21, 2007, 27. DOI: 10.1146/an- nurev.nutr.27.061406.093659.
+
+Wu, Y., Wang, H., Wang, H., and Hadly, E. A."Rethinking the origin of 
+primates by reconstructing their diel activity patterns using genetics and 
+morphology." Scientific Reports, September 19 2017, 7(1). 
+DOI: https://doi.org/10.1038/s41598-017-12090-3
+
+# APPENDIX 
+![This is an example image from Wu et al. which I will replicate with my 
+own results generated from the above methods. I anticipate importing a
+phylogenetic tree into R, then using packages such as ggtree in R to 
+modify the tree. Such as in the example below, I anticipate using 
+color coordinated node labels to indicate negative, neutral or positive
+selection on that branch. This can be done in R. As far as the group 
+labels, I will attempt to find functions in R to acheive this look. 
+However, if I'm unable to produce this in R, I will export the image
+with its colored nodes then make the subsequent additions (the side
+label groupings) in powerpoint (although this will only be after 
+attempting similar labeling in R.)](Homework0_PrimatePhylogenyImage)
+
+![The maximum likelihood tree for the TAS1R1 gene](Human_TAS1R1_orthologues_DNA_aligned_tree.jpg)
+
+![The maximum likelihood tree for the TAS1R3 gene](Human_TAS1R3_orthologues_DNA_aligned_tree.jpg)
+
+![The maximum likelihood tree for both the TAS1R1 gene and the TAS1R3 
+gene when they were combined into a single file.](Human_TAS1R13_orthologues_DNA_aligned_combined_tree)
+
