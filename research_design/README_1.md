@@ -1,4 +1,4 @@
-INTRODUCTION/BACKGROUND
+# INTRODUCTION/BACKGROUND
 During hominin evolution, it is thought that the introduction of meat into 
 the hominin diet provided a new, calorically rich food source that 
 resulted in a higher daily caloric intake. This increased caloric 
@@ -13,12 +13,10 @@ savory “umami” flavor which is associated with human’s perception of meat.
 Two genes, TAS1R1 and TAS1R3, encode the taste receptors responsible for 
 umami flavor. If a dietary transition towards meat eating was a critical 
 shift in hominin evolution, this may have resulted in positive selection 
-on the TAS1R1 and TAS1R3 genes in the hominin lineage. The following 
-hypotheses guide this research: H1: The ratio of non-synonymous to 
-synonymous mutations (dN/dS) is greater than 1 in the hominin lineage for 
-TAS1R1 and/or TAS1R3. H2: In primates whose diets de-emphasize protein 
-sources, the ratio of non-synonymous to synonymous mutations (dN/dS) does 
-not significantly deviate from 1 for TAS1R1 and TAS1R3.
+on the TAS1R1 and TAS1R3 genes in the hominin lineage. 
+
+**HYPOTHESES**
+[PENDING]
 
 # TAS1R1 AND TAS1R3 GENE HISTORY
 Both TAS1R1 and TAS1R3 were examined on ensembl.org. For both genes, all 
@@ -59,7 +57,7 @@ that all primates grouped together based on relatedness for both genes
 etc). The majority of bootstrap values were greater than 95 with the 
 exception of four values for TAS1R1 (52.2, 54, 76.8, and 86.6) and four 
 values for TAS1R3 (58.6, 60.4, 63.8 and 81.6). Additionally, the 
-alignments from TAS1R1 and TAS1R3 were concatenated then input together 
+TAS1R1 and TAS1R3 alignment files were combined then input together 
 into PAUP, where they underwent a Maximum Likelihood bootstrap (500 
 replicates) as described above. The prosimian TAS1R1 gene was the 
 outgroup. Following this, the TAS1R1 and TAS1R3 genes split and, following 
@@ -67,7 +65,7 @@ this split, both genes grouped via relatedness. These trees can be viewed
 below. More detailed explanations of these steps were documented in 
 README.md files and can be provided upon request.
 
-#FUTURE METHODS
+# FUTURE METHODS
 The tree and alignments will be analyzed in PAML to evaluate possibility 
 of selection. Prior to conducting this analysis, I will run the example 
 data set and control files within the PAML program to ensure correct 
@@ -119,22 +117,11 @@ morphology." Scientific Reports, September 19 2017, 7(1).
 DOI: https://doi.org/10.1038/s41598-017-12090-3
 
 # APPENDIX 
-![This is an example image from Wu et al. which I will replicate with my 
-own results generated from the above methods. I anticipate importing a
-phylogenetic tree into R, then using packages such as ggtree in R to 
-modify the tree. Such as in the example below, I anticipate using 
-color coordinated node labels to indicate negative, neutral or positive
-selection on that branch. This can be done in R. As far as the group 
-labels, I will attempt to find functions in R to acheive this look. 
-However, if I'm unable to produce this in R, I will export the image
-with its colored nodes then make the subsequent additions (the side
-label groupings) in powerpoint (although this will only be after 
-attempting similar labeling in R.)](Homework0_PrimatePhylogenyImage)
+![This is an example image from Wu et al. which I will replicate with my own results generated from the above methods. I anticipate importing a phylogenetic tree into R, then using packages such as ggtree in R to modify the tree. Such as in the example below, I anticipate using color coordinated node labels to indicate negative, neutral or positive selection on that branch. This can be done in R. As far as the group labels, I will attempt to find functions in R to acheive this look. However, if I'm unable to produce this in R, I will export the image with its colored nodes then make the subsequent additions (the side label groupings) in powerpoint (although this will only be after attempting similar labeling in R.)](Homework0_PrimatePhylogenyImage)
 
 ![The maximum likelihood tree for the TAS1R1 gene](Human_TAS1R1_orthologues_DNA_aligned_tree.jpg)
 
 ![The maximum likelihood tree for the TAS1R3 gene](Human_TAS1R3_orthologues_DNA_aligned_tree.jpg)
 
-![The maximum likelihood tree for both the TAS1R1 gene and the TAS1R3 
-gene when they were combined into a single file.](Human_TAS1R13_orthologues_DNA_aligned_combined_tree)
+![The maximum likelihood tree for both the TAS1R1 gene and the TAS1R3 gene when they were combined into a single file.](Human_TAS1R13_orthologues_DNA_aligned_combined_tree)
 
