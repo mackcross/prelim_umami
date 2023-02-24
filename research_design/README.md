@@ -16,7 +16,8 @@ shift in hominin evolution, this may have resulted in positive selection
 on the TAS1R1 and TAS1R3 genes in the hominin lineage. 
 
 **HYPOTHESES**
-[PENDING]
+H1: 
+
 
 # TAS1R1 AND TAS1R3 GENE HISTORY
 Both TAS1R1 and TAS1R3 were examined on ensembl.org. For both genes, all 
