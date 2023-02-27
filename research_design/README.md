@@ -1,4 +1,5 @@
-# INTRODUCTION/BACKGROUND
+# INTRODUCTION/BACKGROUND/HYPOTHESES 
+## The Hominin Lineage 
 During hominin evolution, it is thought that the introduction of meat into 
 the hominin diet provided a new, calorically rich food source that 
 resulted in a higher daily caloric intake. This increased caloric 
@@ -15,9 +16,41 @@ umami flavor. If a dietary transition towards meat eating was a critical
 shift in hominin evolution, this may have resulted in positive selection 
 on the TAS1R1 and TAS1R3 genes in the hominin lineage. 
 
-**HYPOTHESES**
-H1: 
+**HYPOTHESIS**
+The first exploration of this question will use PAML's branch site model 
+as 
+H1: The likelihood ratio test will show more support for positive 
+selection on the human lineage branch than the null model  
 
+## Primate Lineages 
+While these taste receptors transduce umami flavor in humans, research 
+indicates that these receptors may serve different purposes in other 
+primates. For example, Toda et al. cloned TAS1R1 receptors and 
+exposed their receptors to L-glutamate, which is an amino acid 
+found in leaves, and 5'ribonucleotides, which is a nucleotide 
+found in insects. They found folgivorous primate receptors were 
+more responsive to L-glutamate and insectivorous primates were more 
+responsive to 5' ribonucleotides, and they identified two amino acid 
+residues which facilitated these differences in responsivity between 
+folgivorous primates and insectivorous primates. These results 
+suggest the TAS1R1 receptor serves different purposes in 
+different primates. Interestingly, the primates which were more dietary 
+generalists showed at least some response to both L-glutamate and 
+5'ribonucleotides, although the degree of response to either varied. 
+However, the dietary specialists such as the Gorilla (a predominetly 
+folgivorous primate) showed nearly exclusive response to only L-glu, and 
+primates such as the marmoset, squirrel monkey, tarsier and greater galago 
+(largely insectivorous primates) showed nearly exclusive response to 
+only 5'ribonucleotides. The above work demonstrates that, in dietary 
+specialists, the TAS1R1 receptor shows near exlusive preference in its 
+responsivity to the molecules that predominetly compose that primate's 
+dietary niche, whether largely folgivorous or insectivorous. This suggests,
+perhaps, an added importance to this receptor in these dietary specialists 
+in contrast to the dietary generalists and that the gene for this 
+receptor may show positive selection in these lineages. 
+
+**HYPOTHESES**
+ 
 
 # TAS1R1 AND TAS1R3 GENE HISTORY
 Both TAS1R1 and TAS1R3 were examined on ensembl.org. For both genes, all 
