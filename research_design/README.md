@@ -17,40 +17,73 @@ shift in hominin evolution, this may have resulted in positive selection
 on the TAS1R1 and TAS1R3 genes in the hominin lineage. 
 
 **HYPOTHESIS**
-The first exploration of this question will use PAML's branch site model 
-as 
-H1: The likelihood ratio test will show more support for positive 
-selection on the human lineage branch than the null model  
+The first exploration of this topic will use PAML's branch model to 
+evaluate possible selection on the hominin lineage. The human branch will 
+be treated as the foreground branch and all other primates will be background 
+branches. Given previous research suggesting the importance of meat in 
+human evolution, I developed the following hypothesis: 
+
+H1: TAS1R1 and/or TAS1R3 will show signatures of selection in the human 
+lineage, as determined by comparison of the human foreground branch model 
+results and the null model results via a likelihood ratio test.  
 
 ## Primate Lineages 
 While these taste receptors transduce umami flavor in humans, research 
 indicates that these receptors may serve different purposes in other 
-primates. For example, Toda et al. cloned TAS1R1 receptors and 
+primates. For example, Todo et al. cloned TAS1R1 receptors and 
 exposed their receptors to L-glutamate, which is an amino acid 
 found in leaves, and 5'ribonucleotides, which is a nucleotide 
-found in insects. They found folgivorous primate receptors were 
+found in insects. They found folivorous primate receptors were 
 more responsive to L-glutamate and insectivorous primates were more 
 responsive to 5' ribonucleotides, and they identified two amino acid 
-residues which facilitated these differences in responsivity between 
-folgivorous primates and insectivorous primates. These results 
+residue mutations which facilitated these differences in responsivity 
+between folivorous primates and insectivorous primates. These results 
 suggest the TAS1R1 receptor serves different purposes in 
-different primates. Interestingly, the primates which were more dietary 
-generalists showed at least some response to both L-glutamate and 
-5'ribonucleotides, although the degree of response to either varied. 
-However, the dietary specialists such as the Gorilla (a predominetly 
-folgivorous primate) showed nearly exclusive response to only L-glu, and 
+different primates (Todo, 2021). Interestingly, the primates which were 
+more dietary generalists showed at least some response to both L-glutamate 
+and 5'ribonucleotides, although the degree of response to either varied. 
+However, the dietary specialists such as the Gorilla (a predominately 
+folivorous primate) showed nearly exclusive response to only L-glu, and 
 primates such as the marmoset, squirrel monkey, tarsier and greater galago 
 (largely insectivorous primates) showed nearly exclusive response to 
-only 5'ribonucleotides. The above work demonstrates that, in dietary 
-specialists, the TAS1R1 receptor shows near exlusive preference in its 
-responsivity to the molecules that predominetly compose that primate's 
-dietary niche, whether largely folgivorous or insectivorous. This suggests,
+only 5'ribonucleotides (Todo, 2021). The above work demonstrates that, in 
+dietary specialists, the TAS1R1 receptor shows near exclusive preference in its 
+responsivity to the molecules that predominantly compose that primate's 
+dietary niche, whether largely folivorous or insectivorous. This suggests,
 perhaps, an added importance to this receptor in these dietary specialists 
 in contrast to the dietary generalists and that the gene for this 
 receptor may show positive selection in these lineages. 
 
 **HYPOTHESES**
- 
+PAML's branch model will be used to evaluate possible selection on primate 
+lineages. Each primate species will be treated as the foreground branch in 
+independent runs. While each primate will have a run where they are treated as 
+the foreground branch, I anticipate dietary specialists will demonstrate selection 
+on their lineages based on work discussed above:
+
+H1: TAS1R1 and/or TAS1R3 will show signatures of selection in predominately 
+insectivorous primates such as the tarsier, as determined by comparison of 
+the tarsier foreground branch model results and the null model results via 
+a likelihood ratio test. 
+H2: TAS1R1 and/or TAS1R3 will show signatures of selection in predominately 
+folivorous primates such as the gorilla, as determined by comparison of 
+the tarsier foreground branch model results and the null model results via 
+a likelihood ratio test. 
+H3: TAS1R1 and/or TAS1R3 will not show signatures of selection in dietary 
+generalists such as the macaque, as determined by comparison of the 
+macaque foreground branch model results and the null model results via a 
+likelihood ratio test. 
+
+Additionally, human and all non-human primate lineages will undergo 
+branch-site model tests. I anticipate results in line with previous 
+hypotheses. Todo et al. identified two TAS1R1 residues, 170 and 302, important 
+for either L-glu or 5' ribonucleotide detection dependent on the mutation. 
+Based on this, the following hypothesis was generated:    
+
+H4: Both predominately insectivorous primates and predominately 
+folivorous primates will demonstrate selection at the sites 170 and 302 of 
+the TAS1R1 gene, as determined by Bayes Empirical Bayes method.  
+
 
 # TAS1R1 AND TAS1R3 GENE HISTORY
 Both TAS1R1 and TAS1R3 were examined on ensembl.org. For both genes, all 
@@ -127,7 +160,7 @@ sets to ensure proper understanding of PAML input and its output and how
 this relates to interpretation of results, 2) input the TAS1R1/TAS1R3 
 alignments, phylogenies and adjust the codeml.ctl file to the appropriate 
 settings and run these analyses. These tasks will take place over the next 
-two weeks. After these two weeks, I’ll use the results to beging to create 
+two weeks. After these two weeks, I’ll use the results to begin to create 
 a phylogeny in R such as the one shown below.
 
 # REFERENCES
@@ -145,17 +178,21 @@ Leonard, William. R., Josh J. Snodgrass, and Marcia L. Robertson. “Effects
 of brain evolution on human nutrition and metabolism.” Annu. Rev. Nutr, 
 August 21, 2007, 27. DOI: 10.1146/an- nurev.nutr.27.061406.093659.
 
-Wu, Y., Wang, H., Wang, H., and Hadly, E. A."Rethinking the origin of 
-primates by reconstructing their diel activity patterns using genetics and 
-morphology." Scientific Reports, September 19 2017, 7(1). 
-DOI: https://doi.org/10.1038/s41598-017-12090-3
+Toda, Yasuka, et al. "Evolution of the primate gluatamate taste sensor 
+froma  nucleotide sensor." Current Biology. October 25, 2021, 31. 
+DOI:https://doi.org/10.1016/j.cub.2021.08.002. 
+
+Wu, Yonghua, Haifeng Wang, Haitao Wang, and Elisabeth A. Hadly. 
+"Rethinking the origin of primates by reconstructing their diel activity 
+patterns using genetics and morphology." Scientific Reports, September 19 
+2017, 7(1). DOI: https://doi.org/10.1038/s41598-017-12090-3
 
 # APPENDIX 
-![This is an example image from Wu et al. which I will replicate with my own results generated from the above methods. I anticipate importing a phylogenetic tree into R, then using packages such as ggtree in R to modify the tree. Such as in the example below, I anticipate using color coordinated node labels to indicate negative, neutral or positive selection on that branch. This can be done in R. As far as the group labels, I will attempt to find functions in R to acheive this look. However, if I'm unable to produce this in R, I will export the image with its colored nodes then make the subsequent additions (the side label groupings) in powerpoint (although this will only be after attempting similar labeling in R.)](Homework0_PrimatePhylogenyImage)
+![This is an example image from Wu et al. which I will replicate with my own results generated from the above methods. I anticipate importing a phylogenetic tree into R, then using packages such as ggtree in R to modify the tree. Such as in the example below, I anticipate using color coordinated node labels to indicate negative, neutral or positive selection on that branch. This can be done in R. As far as the group labels, I will attempt to find functions in R to acheive this look. However, if I'm unable to produce this in R, I will export the image with its colored nodes then make the subsequent additions (the side label groupings) in powerpoint (although this will only be after attempting similar labeling in R.)](Homework0_PrimatePhylogenyImage.jpg)
 
 ![The maximum likelihood tree for the TAS1R1 gene](Human_TAS1R1_orthologues_DNA_aligned_tree.jpg)
 
 ![The maximum likelihood tree for the TAS1R3 gene](Human_TAS1R3_orthologues_DNA_aligned_tree.jpg)
 
-![The maximum likelihood tree for both the TAS1R1 gene and the TAS1R3 gene when they were combined into a single file.](Human_TAS1R13_orthologues_DNA_aligned_combined_tree)
+![The maximum likelihood tree for both the TAS1R1 gene and the TAS1R3 gene when they were combined into a single file.](Human_TAS1R13_orthologues_DNA_aligned_combined_tree.jpg)
 
