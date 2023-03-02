@@ -16,16 +16,6 @@ umami flavor. If a dietary transition towards meat eating was a critical
 shift in hominin evolution, this may have resulted in positive selection 
 on the TAS1R1 and TAS1R3 genes in the hominin lineage. 
 
-**HYPOTHESIS**
-The first exploration of this topic will use PAML's branch model to 
-evaluate possible selection on the hominin lineage. The human branch will 
-be treated as the foreground branch and all other primates will be background 
-branches. Given previous research suggesting the importance of meat in 
-human evolution, I developed the following hypothesis: 
-
-H1: TAS1R1 and/or TAS1R3 will show signatures of selection in the human 
-lineage, as determined by comparison of the human foreground branch model 
-results and the null model results via a likelihood ratio test.  
 
 ## Primate Lineages 
 While these taste receptors transduce umami flavor in humans, research 
@@ -53,6 +43,17 @@ dietary niche, whether largely folivorous or insectivorous. This suggests,
 perhaps, an added importance to this receptor in these dietary specialists 
 in contrast to the dietary generalists and that the gene for this 
 receptor may show positive selection in these lineages. 
+
+**HYPOTHESIS**
+The first exploration of this topic will use PAML's branch model to 
+evaluate possible selection on the hominin lineage. The human branch will 
+be treated as the foreground branch and all other primates will be background 
+branches. Given previous research suggesting the importance of meat in 
+human evolution, I developed the following hypothesis: 
+
+H1: TAS1R1 and/or TAS1R3 will show signatures of selection in the human 
+lineage, as determined by comparison of the human foreground branch model 
+results and the null model results via a likelihood ratio test.
 
 **HYPOTHESES**
 PAML's branch model will be used to evaluate possible selection on primate 
