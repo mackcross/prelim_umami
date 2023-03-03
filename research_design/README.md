@@ -148,7 +148,7 @@ Maximum likelihood." Computer applications in the biosciences, October 1,
 
 
 # APPENDIX 
-![Anticipated results based on hypotheses](pathway)
+![Anticipated results based on hypotheses](hypothesis_expectations.jpg)
 
 ![As this researcg has not been completed, I have shown an example of a similar phylogeny from Wu et al. which was a reconstruction of primate diel pattern using opsin genes, as shown below. Using the results from my PAML analyses, I will create a similar phylogenetic tree where I mark branches with their respective selection symbol.](Homework0_PrimatePhylogenyImage.jpg)
 
