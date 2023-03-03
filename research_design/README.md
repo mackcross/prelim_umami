@@ -98,18 +98,6 @@ of selection. I have spent the last two weeks using example data sets to test pr
 Following these PAML analyses, I will use R to construct a primate phylogeny which will document type of selection (negative, neutral or positive) on each primate branch (see Image 2 for the image of inspiration). I anticipate importing a phylogenetic tree into R, then I will use packages such as ggtree in R to modify the tree. As in my inspiration image, I anticipate using color coordinated node labels to indicate negative, neutral or positive selection on that branch. This can be done in R. As far as the vertical group labels, I will attempt to find functions in R to acheive this look, although at this moment I am unaware of such functions or aesthetics. However, if I am unable to produce this in R, I will export the image with its colored nodes then make the subsequent additions (the side label groupings) in powerpoint.
 
 
-# CONCLUSION
-My initial work demonstrates a relatively uncomplicated gene history for 
-both TAS1R1 and TAS1R3. The alignment and its resultant phylogeny appear 
-well supported. The next steps will be to 1) replicate PAML example data 
-sets to ensure proper understanding of PAML input and its output and how 
-this relates to interpretation of results, 2) input the TAS1R1/TAS1R3 
-alignments, phylogenies and adjust the codeml.ctl file to the appropriate 
-settings and run these analyses. These tasks will take place over the next 
-two weeks. After these two weeks, I’ll use the results to begin to create 
-a phylogeny in R such as the one shown below.
-
-
 # REFERENCES
 Bielawski, Joseph P. "Detecting the signatures of adaptive evolution in 
 protein-coding genes." Current protocols in molecular biology. January 15, 
@@ -150,7 +138,7 @@ Maximum likelihood." Computer applications in the biosciences, October 1,
 # APPENDIX 
 ![Anticipated results based on hypotheses](hypothesis_expectations.jpg)
 
-![As this researcg has not been completed, I have shown an example of a similar phylogeny from Wu et al. which was a reconstruction of primate diel pattern using opsin genes, as shown below. Using the results from my PAML analyses, I will create a similar phylogenetic tree where I mark branches with their respective selection symbol.](Homework0_PrimatePhylogenyImage.jpg)
+![As this research has not been completed, I have shown an example of a similar phylogeny from Wu et al. which was a reconstruction of primate diel pattern using opsin genes. Using the results from my PAML analyses, I will create a similar phylogenetic tree where I mark branches with their respective selection symbol.](Homework0_PrimatePhylogenyImage.jpg)
 
 ![The maximum likelihood tree for the TAS1R1 gene](Human_TAS1R1_orthologues_DNA_aligned_tree.jpg)
 
