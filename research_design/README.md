@@ -1,79 +1,54 @@
 # INTRODUCTION/BACKGROUND/HYPOTHESES 
-## The Hominin Lineage 
+ 
 During hominin evolution, it is thought that the introduction of meat into 
 the hominin diet provided a new, calorically rich food source that 
 resulted in a higher daily caloric intake. This increased caloric 
 availability may have facilitated hominin brain evolution, as human brains 
 have intense energetic demands (~20-25% of resting metabolic rate) 
 compared to the average primate (~9%) and the average mammal (~3-5%) 
-(Leonard, 2007). Additionally, evidence suggests that a dietary transition 
-towards meat eating preceded hominin brain expansion (Ferraro, 2013). To 
-further evaluate the role of meat in hominin evolution, this project 
-considers the taste receptors responsible for the transduction of the 
-savory “umami” flavor which is associated with human’s perception of meat. 
-Two genes, TAS1R1 and TAS1R3, encode the taste receptors responsible for 
-umami flavor. If a dietary transition towards meat eating was a critical 
-shift in hominin evolution, this may have resulted in positive selection 
-on the TAS1R1 and TAS1R3 genes in the hominin lineage. 
+(Leonard, 2007). The incorporation of meat in the hominin diet preceded 
+hominin brain expansion (Ferraro, 2013) and, furthermore, other primates such 
+as chimpanzees, bonobos, and capuchins also particpate in meat eating 
+behaviors, although not with regularity (CITATION). **To further evaluate the role of meat in hominin evolution, this first part of this project considers the taste receptors responsible for the transduction of the savory “umami” flavor which is associated with human’s perception of meat.** Two genes, TAS1R1 and TAS1R3, encode the taste receptors responsible for umami flavor in humans. If a dietary transition towards meat eating was a critical shift in hominin evolution, this may have resulted in positive selection on the TAS1R1 and TAS1R3 genes in the hominin lineage. It is important to note, however, that the sole analysis of these umami receptor genes is not sufficent to provide strong support or rejection of the importance of meat in the hominin diet. Rather, the exploration of TAS1R1 and TAS1R3 in this analysis is a "first run" of a larger analysis to be completed in the upcoming summer where a collection of genes related to protein digestion will undergo similar analyses. While its likely the inclusion of additional genes will provide a more complete exploration of human's relationship with meat, these future steps are critical as the TAS1R1 and TAS1R3 genes appear to serve several dietary purposes in other primate lineages beyond simple transduction of umami flavor. For example, Todo et al. cloned TAS1R1 receptors of numerous primates across the primate phylogeny and exposed these receptors to L-glutamate (L-glu) and 5'ribonucleotides. They found folivorous primate receptors were responsive to L-glu, which is a prominent component of leaves, and insectivorous primate receptors were responsive to 5' ribonucleotides, which is a prominent component of insects. Interestingly, the receptors of dietary generalists were responsive to both L-glu and 5' ribonucleotides. These researchers identified two amino acid residue mutations which enabled these responsivity differences between folivorous primates and insectivorous primates (Toda, 2021). The strong association of folgivorous diet/L-glu receptor response and insectivorous diet/5' ribonucletide receptor response suggests a shared importance of these receptors across primates as well as emphasizes the receptor's multi-functionality dependent on diet. **Thus, the second part of this project is to examine possible selection on these receptors throughout primates.**
+
+**HYPOTHESES**
+Given the suggested importance of meat in the hominin lineage, it logically follows that, if true, the receptors critical for the transduction of meat flavor would experience selection in the hominin lineage: 
+H1: TAS1R1 and/or TAS1R3 will show signatures of selection in the human 
+lineage, as determined by comparison of the human foreground branch model 
+results and the null model results via a likelihood ratio test.
+
+In the broader primatological context, these receptors appear to serve several dietary functions. For example, the TAS1R1 receptor of dietary specialists, such as fully folivorous or insectivorous primates, demonstrate highly specific and exclusive responses to the molecules that comprise their specialized diets. This, perhaps, suggests heightened importance of these receptors to dietary specalists: 
+H2: TAS1R1 and/or TAS1R3 will show signatures of selection in predominately 
+insectivorous primates such as the tarsier, as determined by comparison of 
+the tarsier foreground branch model results and the null model results via 
+a likelihood ratio test. 
+H3: TAS1R1 and/or TAS1R3 will show signatures of selection in predominately 
+folivorous primates such as the gorilla, as determined by comparison of 
+the tarsier foreground branch model results and the null model results via 
+a likelihood ratio test. 
+
+These receptors may not be as important in dietary generalists. However, it is possible that even 
+H3: TAS1R1 and/or TAS1R3 will not show signatures of selection in dietary 
+generalists who do not exhibit meat eating behaviors, as determined by comparison of the foreground branch model results and the null model results via a likelihood ratio test. 
+
+H4: Both predominately insectivorous primates and predominately 
+folivorous primates will demonstrate selection at the sites 170 and 302 of 
+the TAS1R1 gene, as determined by Bayes Empirical Bayes method.  
 
 
-## Primate Lineages 
-While these taste receptors transduce umami flavor in humans, research 
-indicates that these receptors may serve different purposes in other 
-primates. For example, Todo et al. cloned TAS1R1 receptors and 
-exposed their receptors to L-glutamate, which is an amino acid 
-found in leaves, and 5'ribonucleotides, which is a nucleotide 
-found in insects. They found folivorous primate receptors were 
-more responsive to L-glutamate and insectivorous primates were more 
-responsive to 5' ribonucleotides, and they identified two amino acid 
-residue mutations which facilitated these differences in responsivity 
-between folivorous primates and insectivorous primates. These results 
-suggest the TAS1R1 receptor serves different purposes in 
-different primates (Todo, 2021). Interestingly, the primates which were 
-more dietary generalists showed at least some response to both L-glutamate 
-and 5'ribonucleotides, although the degree of response to either varied. 
-However, the dietary specialists such as the Gorilla (a predominately 
-folivorous primate) showed nearly exclusive response to only L-glu, and 
-primates such as the marmoset, squirrel monkey, tarsier and greater galago 
-(largely insectivorous primates) showed nearly exclusive response to 
-only 5'ribonucleotides (Todo, 2021). The above work demonstrates that, in 
-dietary specialists, the TAS1R1 receptor shows near exclusive preference in its 
-responsivity to the molecules that predominantly compose that primate's 
-dietary niche, whether largely folivorous or insectivorous. This suggests,
-perhaps, an added importance to this receptor in these dietary specialists 
-in contrast to the dietary generalists and that the gene for this 
-receptor may show positive selection in these lineages. 
-
-**HYPOTHESIS**
+INSERT LATER 
 The first exploration of this topic will use PAML's branch model to 
 evaluate possible selection on the hominin lineage. The human branch will 
 be treated as the foreground branch and all other primates will be background 
 branches. Given previous research suggesting the importance of meat in 
 human evolution, I developed the following hypothesis: 
 
-H1: TAS1R1 and/or TAS1R3 will show signatures of selection in the human 
-lineage, as determined by comparison of the human foreground branch model 
-results and the null model results via a likelihood ratio test.
-
-**HYPOTHESES**
 PAML's branch model will be used to evaluate possible selection on primate 
 lineages. Each primate species will be treated as the foreground branch in 
 independent runs. While each primate will have a run where they are treated as 
-the foreground branch, I anticipate dietary specialists will demonstrate selection 
-on their lineages based on work discussed above:
+the foreground branch, I anticipate dietary specialists will demonstrate selection on their lineages based on work discussed above:
 
-H1: TAS1R1 and/or TAS1R3 will show signatures of selection in predominately 
-insectivorous primates such as the tarsier, as determined by comparison of 
-the tarsier foreground branch model results and the null model results via 
-a likelihood ratio test. 
-H2: TAS1R1 and/or TAS1R3 will show signatures of selection in predominately 
-folivorous primates such as the gorilla, as determined by comparison of 
-the tarsier foreground branch model results and the null model results via 
-a likelihood ratio test. 
-H3: TAS1R1 and/or TAS1R3 will not show signatures of selection in dietary 
-generalists such as the macaque, as determined by comparison of the 
-macaque foreground branch model results and the null model results via a 
-likelihood ratio test. 
+
 
 Additionally, human and all non-human primate lineages will undergo 
 branch-site model tests. I anticipate results in line with previous 
@@ -81,9 +56,7 @@ hypotheses. Todo et al. identified two TAS1R1 residues, 170 and 302, important
 for either L-glu or 5' ribonucleotide detection dependent on the mutation. 
 Based on this, the following hypothesis was generated:    
 
-H4: Both predominately insectivorous primates and predominately 
-folivorous primates will demonstrate selection at the sites 170 and 302 of 
-the TAS1R1 gene, as determined by Bayes Empirical Bayes method.  
+
 
 
 # TAS1R1 AND TAS1R3 GENE HISTORY
