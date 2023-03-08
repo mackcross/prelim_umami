@@ -1,3 +1,6 @@
+# Script for TAS1R1 - Branch Model Runs 
+
+rm(list=ls())
 
 # Load necessary packages
 library(ape)
@@ -7,11 +10,11 @@ library(phangorn)
 #setwd("/path/to/directory/containing/codeml/executable")
 
 # Load alignment file
-alignment <- read.dna("alignment_file.fasta", format = "fasta")
+TAS1R1_alignment <- read.dna("Human_TAS1R1_orthologues_DNA_aligned.fa", format = "fasta")
 
 # Set up control file for codeml
 control_file <- "
-      seqfile = alignment_file.fasta
+      seqfile = Human_TAS1R1_orthologues_DNA_aligned.fa
       treefile = tree_file.tree
       outfile = output_file
       verbose = 0
