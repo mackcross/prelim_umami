@@ -1,0 +1,497 @@
+
+P A U P *
+Version 4.0a (build 168) for macOS (built on Aug  2 2020 at 06:41:30)
+Thu Mar 23 11:16:05 2023
+
+
+Optimality criterion set to distance.
+
+Neighbor-joining search settings:
+  Ties (if encountered) will be broken systematically
+  Distance measure = uncorrected ("p")
+  2679 characters are included
+  All characters have equal weight
+  (Tree is unrooted)
+
+NOTE: Random-addition-sequence option is ignored when starting trees are obtained using neighbor-
+      joining.
+
+Neighbor-joining tree:
+
+/----------------------------------- ENSOGAP00000021276 Ogar
+|
+|            /----------------- ENSMICP00000043915 Mmur
+|            |
+|   /--------+/-------------- ENSPSMP00000018490 Psim
+|   |        \+
+|   |         \------------ ENSPCOP00000017626 Pcoq
+|   |
+|   |                                 /---- ENSCSAP00000017323 Csab
+|   |                                 |
+|   |                                 |  /-- ENSMNEP00000040654 Mnem
+|   |                             /---+--+
+|   |                             |   |  \- ENSMMUP00000078066 Mmul
+|   |                             |   |
+|   |                             |   |/- ENSPANP00000015259 Panu
+|   |                             |   ||
+\---+                       /-----+   \+/- ENSCATP00000000954 Caty
+    |                       |     |    \+
+    |                       |     |     \- ENSMLEP00000011295 Mleu
+    |                       |     |
+    |                       |     |    /------------------------------------ ENSRBIP00000039642 Rbie
+    |               /-------+     \----+
+    |               |       |          \-- ENSRROP00000002352 Rrox
+    |               |       |
+    |               |       |    /--------- ENSPPYP00000002326 Pabe
+    |               |       |    |
+    |               |       \----+   /---- ENSGGOP00000023446 Ggor
+    |               |            |   |
+    |               |            \---+/-- ENSP00000344411 Hsap
+    \---------------+                ||
+                    |                \+/- ENSPTRP00000044858 Ptro
+                    |                 \+
+                    |                  \- ENSPPAP00000024462 Ppan
+                    |
+                    |             /------------ ENSCJAP00000020529 Cjac
+                    |             |
+                    |             +----------- ENSSBOP00000021331 Sbbo
+                    \-------------+
+                                  \-------- ENSANAP00000014095 Anan
+
+Tree found by neighbor-joining method stored in tree buffer
+Time used for tree calculation = 0.00 sec (CPU time = 0.00 sec)
+
+Optimality criterion set to likelihood.
+
+Likelihood scores of tree(s) in memory:
+---------------------------------------
+  2679 characters are included
+  All characters have equal weight
+  Likelihood settings:
+    Current model:
+                             Data type = nucleotide
+                DNA substitution types = 2 (HKY85 variant)
+                           Ti/tv ratio = estimated
+                     State frequencies = empirical: A=0.151286 C=0.338825 G=0.324343 T=0.185546
+        Proportion of invariable sites = none
+               Rates at variable sites = gamma, shape=estimated (4 categories [mean])
+                  Model correspondence = HKY85+G
+
+    Number of distinct data patterns under this model = 666
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+    Multidimensional optimizer = Praxis (tol=0.0001)
+    Likelihood calculations performed in single precision
+    Vector processing enabled
+    Using standard Felsenstein pruning for computing likelihoods
+    Conditional-likelihood rescaling threshold = 1e-20
+    Using 1 thread on 8 physical (16 logical) processors
+
+Tree                   1
+------------------------
+-ln L          13143.794
+Ti/tv:
+  exp. ratio    2.510269
+  kappa         5.593157
+Shape           0.587861
+
+Time used to compute likelihoods = 0.41 sec (CPU time = 0.41 sec)
+
+Heuristic search settings:
+  Optimality criterion = likelihood
+    2679 characters are included
+    All characters have equal weight
+    Likelihood settings:
+      Current model:
+                               Data type = nucleotide
+                  DNA substitution types = 2 (HKY85 variant)
+                             Ti/tv ratio = 2.51027
+                       State frequencies = empirical: A=0.151286 C=0.338825 G=0.324343 T=0.185546
+          Proportion of invariable sites = none
+                 Rates at variable sites = gamma, shape=0.587861 (4 categories [mean])
+                    Model correspondence = HKY85+G
+
+      Number of distinct data patterns under this model = 666
+      Molecular clock not enforced
+      Starting branch lengths obtained using Rogers-Swofford approximation method
+      Trees with approximate log likelihoods 5% or further from the target score are rejected
+        without additional iteration
+      Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20,
+                                   tolerance=1e-07
+      Likelihood calculations performed in single precision
+      Vector processing enabled
+      Using standard Felsenstein pruning for computing likelihoods
+      Conditional-likelihood rescaling threshold = 1e-20
+      Using 1 thread on 8 physical (16 logical) processors
+
+  Starting tree(s) obtained via stepwise addition
+    Addition sequence: random
+    Number of replicates = 100
+    Starting seed = generated automatically
+    Number of trees held at each step = 1
+  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+    Steepest descent option not in effect
+  Initial 'Maxtrees' setting = 100
+  Branches collapsed (creating polytomies) if branch length is less than or equal to 1e-08
+  'MulTrees' option in effect
+  No topological constraints in effect
+  Trees are unrooted
+
+Heuristic search completed
+  Total number of rearrangements tried = 4979
+  Score of best tree(s) found = 13143.35
+  Number of trees retained = 1
+  Time used = 52.93 sec (CPU time = 52.92 sec)
+
+Tree-island profile:
+                     First      Last                        First    Times
+Island      Size      tree      tree           Score    replicate      hit
+--------------------------------------------------------------------------
+     1         1         1         1        13143.35            1     100
+
+Likelihood scores of tree(s) in memory:
+---------------------------------------
+  2679 characters are included
+  All characters have equal weight
+  Likelihood settings:
+    Current model:
+                             Data type = nucleotide
+                DNA substitution types = 2 (HKY85 variant)
+                           Ti/tv ratio = estimated
+                     State frequencies = empirical: A=0.151286 C=0.338825 G=0.324343 T=0.185546
+        Proportion of invariable sites = none
+               Rates at variable sites = gamma, shape=estimated (4 categories [mean])
+                  Model correspondence = HKY85+G
+
+    Number of distinct data patterns under this model = 666
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+    Multidimensional optimizer = Praxis (tol=0.0001)
+    Likelihood calculations performed in single precision
+    Vector processing enabled
+    Using standard Felsenstein pruning for computing likelihoods
+    Conditional-likelihood rescaling threshold = 1e-20
+    Using 1 thread on 8 physical (16 logical) processors
+
+Tree                   1
+------------------------
+-ln L          13143.343
+Ti/tv:
+  exp. ratio    2.518424
+  kappa         5.611328
+Shape           0.586191
+
+Time used to compute likelihoods = 0.34 sec (CPU time = 0.34 sec)
+
+1 tree saved to file "~/Documents/TAS1R1_ML.tre"
+
+Bootstrap method with heuristic search:
+  Number of bootstrap replicates = 500
+  Starting seed = generated automatically
+  Number of characters resampled in each replicate = 2679
+  Optimality criterion = likelihood
+    2679 characters are included
+    All characters have equal weight
+    Likelihood settings:
+      Current model:
+                               Data type = nucleotide
+                  DNA substitution types = 2 (HKY85 variant)
+                             Ti/tv ratio = 2.51842
+                       State frequencies = empirical: A=0.151286 C=0.338825 G=0.324343 T=0.185546
+          Proportion of invariable sites = none
+                 Rates at variable sites = gamma, shape=0.586191 (4 categories [mean])
+                    Model correspondence = HKY85+G
+
+      Number of distinct data patterns under this model = 666
+      Molecular clock not enforced
+      Starting branch lengths obtained using Rogers-Swofford approximation method
+      Trees with approximate log likelihoods 5% or further from the target score are rejected
+        without additional iteration
+      Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20,
+                                   tolerance=1e-07
+      Likelihood calculations performed in single precision
+      Vector processing enabled
+      Using standard Felsenstein pruning for computing likelihoods
+      Conditional-likelihood rescaling threshold = 1e-20
+      Using 1 thread on 8 physical (16 logical) processors
+
+  Starting tree(s) obtained via neighbor-joining
+  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+    Steepest descent option not in effect
+  Initial 'Maxtrees' setting = 100
+  Branches collapsed (creating polytomies) if branch length is less than or equal to 1e-08
+  'MulTrees' option in effect
+  No topological constraints in effect
+  Trees are unrooted
+
+NOTE: Random-addition-sequence option is ignored when starting trees are obtained using neighbor-
+      joining.
+
+    Elapsed          Taxa      Rearr.  -- Number of trees --        Best
+       time    Rep  added      tried      saved   to swap        tree(s)
+  ----------------------------------------------------------------------
+    0:01:00      4      -       3093          3         2       13005.10
+    0:02:00      8      -       1086          1         1       12998.21
+    0:03:00     12      -       1634          1         1       12757.53
+    0:04:00     15      -       2269          1         1       12915.08
+    0:05:00     21      -        186          1         1       12951.76
+    0:06:00     26      -        458          1         1       13424.80
+    0:07:00     31      -        679          1         1       12944.44
+    0:08:00     36      -        847          1         1       13471.67
+    0:09:00     40      -       1236          1         1       12941.29
+    0:10:00     42      -       4224          2         1       13109.02
+    0:11:00     48      -          1          1         1       12961.68
+    0:12:00     53      -        563          1         1       13004.68
+    0:13:00     58      -        731          1         1       13197.79
+    0:14:00     63      -        762          1         1       13155.95
+    0:15:00     66      -       6178          3         1       13000.90
+    0:16:00     71      -       1293          1         1       12982.89
+    0:17:00     76      -       1446          1         1       13001.26
+    0:18:00     81      -       1772          1         1       13627.81
+    0:19:00     85      -       4779          2         1       13218.39
+    0:20:00     90      -         35          1         1       13278.07
+    0:21:00     93      -        287          1         1       13263.31
+    0:22:00     98      -        447          1         1       13112.78
+    0:23:00    103      -        863          1         1       13027.56
+    0:24:00    108      -        873          1         1       12915.30
+    0:25:00    113      -       1421          1         1       13244.48
+    0:26:00    118      -       1541          1         1       13046.55
+    0:27:00    123      -       1751          2         2       13492.57
+    0:28:00    127      -       1570          1         1       13126.19
+    0:29:00    130      -       2418          1         1       12972.86
+    0:30:00    135      -       2032          1         1       12885.97
+    0:31:00    140      -       2268          1         1       13445.83
+    0:32:00    145      -       2105          1         1       13089.63
+    0:33:00    149      -       2222          1         1       12733.13
+    0:34:00    154      -       1857          1         1       13331.20
+    0:35:00    157      -       7363          3         1       13379.61
+    0:36:00    163      -          1          1         1       12933.05
+    0:37:00    166      -       4935          3         2       13204.51
+    0:38:00    171      -        163          1         1       13405.08
+    0:39:00    176      -        465          1         1       13089.48
+    0:40:00    181      -        664          1         1       12878.18
+    0:41:00    186      -        719          1         1       13761.52
+    0:42:00    190      -       1276          1         1       12866.94
+    0:43:00    195      -       1971          1         1       13348.72
+    0:44:00    199      -       2480          1         1       13383.71
+    0:45:00    205      -        254          1         1       13347.62
+    0:46:00    210      -        815          1         1       13007.81
+    0:47:00    215      -        739          1         1       13154.09
+    0:48:00    219      -        685          1         1       12854.00
+    0:49:00    223      -        445          2         2       13191.42
+    0:50:00    227      -       1031          1         1       13599.58
+    0:51:00    232      -       1268          1         1       13167.40
+    0:52:00    237      -       1432          1         1       13195.91
+    0:53:00    241      -       1861          2         2       12969.23
+    0:54:00    245      -       2132          1         1       12950.80
+    0:55:00    250      -       2372          1         1       13223.08
+    0:56:00    256      -        418          1         1       12911.39
+    0:57:00    260      -       1000          1         1       13075.52
+    0:58:00    265      -       1437          1         1       12988.22
+    0:59:00    270      -       1899          1         1       13386.34
+    1:00:00    275      -       2237          1         1       13013.36
+    1:01:00    278      -       7508          3         1       13208.85
+    1:02:00    284      -        462          1         1       13244.91
+    1:03:00    289      -       1029          1         1       13303.09
+    1:04:00    294      -       1494          1         1       13417.39
+    1:05:00    299      -       1888          2         2       13247.15
+    1:06:00    303      -       1862          1         1       13269.77
+    1:07:00    308      -       1722          1         1       12941.75
+    1:08:00    313      -       2336          1         1       13202.08
+    1:09:00    318      -        313          1         1       13227.77
+    1:10:00    323      -        946          1         1       12792.32
+    1:11:00    328      -       1480          1         1       13158.92
+    1:12:00    333      -       2404          1         1       12751.15
+    1:13:00    339      -        298          1         1       12783.82
+    1:14:00    344      -        456          1         1       12892.97
+    1:15:00    349      -        976          1         1       12991.98
+    1:16:00    353      -       1318          2         2       12917.20
+    1:17:00    357      -       2250          1         1       13017.96
+    1:18:00    363      -         78          1         1       13588.38
+    1:19:00    367      -       1116          1         1       12723.25
+    1:20:00    371      -       1638          1         1       13489.70
+    1:21:00    376      -       2354          1         1       13188.79
+    1:22:00    380      -       2731          2         1       13375.94
+    1:23:00    385      -        967          1         1       13360.34
+    1:24:00    388      -       1906          1         1       13147.98
+    1:25:00    393      -       2314          1         1       13347.27
+    1:26:00    399      -        535          1         1       13400.30
+    1:27:00    403      -       2881          2         1       13200.70
+    1:28:00    407      -       2032          1         1       13036.44
+    1:29:00    412      -       1408          1         1       12946.63
+    1:30:00    417      -        977          1         1       12989.26
+    1:31:00    422      -        378          1         1       13443.60
+    1:32:00    426      -       2527          2         2       13015.92
+    1:33:00    430      -         41          1         1       12966.89
+    1:34:00    434      -       1629          1         1       13179.89
+    1:35:00    436      -       4005          3         2       13639.55
+    1:36:00    440      -       1217          1         1       12968.36
+    1:37:00    445      -       1176          3         3       13453.74
+    1:38:00    448      -       1635          1         1       12971.59
+    1:39:00    453      -       2357          1         1       13551.15
+    1:40:00    459      -        586          1         1       12799.56
+    1:41:00    464      -        950          1         1       13069.06
+    1:42:00    469      -       1474          1         1       12932.84
+    1:43:00    474      -       1534          2         2       13120.85
+    1:44:00    478      -       2465          1         1       12880.81
+    1:45:00    482      -        528          1         1       12814.43
+    1:46:00    487      -        773          1         1       13053.31
+    1:47:00    491      -       1304          1         1       13068.05
+    1:48:00    496      -       2387          1         1       13194.71
+    1:48:46    500      -       2586          0         -       13014.81
+
+  500 bootstrap replicates completed
+  Time used = 01:48:46 (CPU time = 01:48:41.4)
+
+Bootstrap 50% majority-rule consensus tree
+
+/----------------------------------------------------------------------- ENSOGAP00000021276 Ogar(1)
+|
+|                                                              /-------- ENSMICP00000043915 Mmur(2)
+|                                                              |
+|       /-------------------------100--------------------------+-------- ENSPSMP00000018490 Psim(3)
+|       |                                                      |
+|       |                                                      \-------- ENSPCOP00000017626 Pcoq(4)
+|       |
+|       |                              /-------------------------------- ENSCSAP00000017323 Csab(5)
+|       |                              |
+|       |                              |                       /-------- ENSMNEP00000040654 Mnem(6)
+|       |                       /-100--+       /------100------+
+|       |                       |      |       |               \-------- ENSMMUP00000078066 Mmul(7)
+|       |                       |      \--83---+
+|       |                       |              |       /---------------- ENSPANP00000015259 Panu(8)
+|       |                       |              |       |
+\-------+               /--100--+              \--52---+       /-------- ENSCATP00000000954 Caty(9)
+        |               |       |                      \--100--+
+        |               |       |                              \-------- ENSMLEP00000011295 Mleu(10)
+        |               |       |
+        |               |       |                              /-------- ENSRBIP00000039642 Rbie(11)
+        |       /--100--+       \-------------100--------------+
+        |       |       |                                      \-------- ENSRROP00000002352 Rrox(12)
+        |       |       |
+        |       |       |              /-------------------------------- ENSPPYP00000002326 Pabe(13)
+        |       |       |              |
+        |       |       \-----100------+       /------------------------ ENSGGOP00000023446 Ggor(14)
+        |       |                      |       |
+        |       |                      \--100--+       /---------------- ENSP00000344411 Hsap(15)
+        \--100--+                              |       |
+                |                              \--95---+       /-------- ENSPTRP00000044858 Ptro(16)
+                |                                      \--100--+
+                |                                              \-------- ENSPPAP00000024462 Ppan(17)
+                |
+                |                                              /-------- ENSCJAP00000020529 Cjac(18)
+                |                                      /--63---+
+                |                                      |       \-------- ENSSBOP00000021331 Sbbo(19)
+                \-----------------100------------------+
+                                                       \---------------- ENSANAP00000014095 Anan(20)
+
+Bipartitions found in one or more trees and frequency of occurrence (bootstrap support values):
+
+         1         2
+12345678901234567890          Freq        %
+-------------------------------------------
+.................***        500.00  100.00%
+...............**...        500.00  100.00%
+.............****...        500.00  100.00%
+............*****...        500.00  100.00%
+..........**........        500.00  100.00%
+........**..........        500.00  100.00%
+.....**.............        500.00  100.00%
+....******..........        500.00  100.00%
+....********........        500.00  100.00%
+....*************...        500.00  100.00%
+....****************        500.00  100.00%
+.***................        500.00  100.00%
+..............***...        474.33   94.87%
+.....*****..........        416.00   83.20%
+.................**.        315.83   63.17%
+.......***..........        260.17   52.03%
+.**.................        216.50   43.30%
+..**................        166.50   33.30%
+.....**.**..........        123.83   24.77%
+.*.*................        117.00   23.40%
+..................**         93.33   18.67%
+.................*.*         90.83   18.17%
+....*..***..........         81.50   16.30%
+....*..*............         49.00    9.80%
+
+4 groups at (relative) frequency less than 5% not shown
+
+Tree description:
+
+  Unrooted tree(s) rooted using outgroup method
+
+  Note: No outgroup has been defined; tree is (arbitrarily) rooted at first taxon.
+  Optimality criterion = likelihood
+    2679 characters are included
+    All characters have equal weight
+    Likelihood settings:
+      Current model:
+                               Data type = nucleotide
+                  DNA substitution types = 2 (HKY85 variant)
+                             Ti/tv ratio = 2.51842
+                       State frequencies = empirical: A=0.151286 C=0.338825 G=0.324343 T=0.185546
+          Proportion of invariable sites = none
+                 Rates at variable sites = gamma, shape=0.586191 (4 categories [mean])
+                    Model correspondence = HKY85+G
+
+      Number of distinct data patterns under this model = 666
+      Molecular clock not enforced
+      Starting branch lengths obtained using Rogers-Swofford approximation method
+      Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20,
+                                   tolerance=1e-07
+      Likelihood calculations performed in single precision
+      Vector processing enabled
+      Using standard Felsenstein pruning for computing likelihoods
+      Conditional-likelihood rescaling threshold = 1e-20
+      Using 1 thread on 8 physical (16 logical) processors
+
+Tree 1 (rooted using default outgroup)
+
+-Ln likelihood = 13145.577
+
+/---------------------------------- ENSOGAP00000021276 Ogar
+|
+|             /--------------- ENSMICP00000043915 Mmur
+|             |
+|   /--------21---------- ENSPSMP00000018490 Psim
+|   |         |
+|   |         \--------- ENSPCOP00000017626 Pcoq
+|   |
+|   |                                      /--- ENSCSAP00000017323 Csab
+|   |                                      |
+|   |                                      |  /- ENSMNEP00000040654 Mnem
+|   |                                    /26/22
+|   |                                    | || \ ENSMMUP00000078066 Mmul
+|   |                                    | 25
+|   |                                    |  +- ENSPANP00000015259 Panu
+|   |                                    |  |
+\--37                              /----28 24/- ENSCATP00000000954 Caty
+    |                              |     |  23
+    |                              |     |   \- ENSMLEP00000011295 Mleu
+    |                              |     |
+    |                              |     |   /------------------------------ ENSRBIP00000039642 Rbie
+    |                      /------33     \--27
+    |                      |       |         \ ENSRROP00000002352 Rrox
+    |                      |       |
+    |                      |       |   /------ ENSPPYP00000002326 Pabe
+    |                      |       |   |
+    |                      |       \--32  /-- ENSGGOP00000023446 Ggor
+    |                      |           |  |
+    |                      |           \-31- ENSP00000344411 Hsap
+    \---------------------36              |
+                           |             30/- ENSPTRP00000044858 Ptro
+                           |              29
+                           |               \- ENSPPAP00000024462 Ppan
+                           |
+                           |              /-------- ENSCJAP00000020529 Cjac
+                           |             34
+                           |             |\-------- ENSSBOP00000021331 Sbbo
+                           \------------35
+                                         \------ ENSANAP00000014095 Anan
+
+1 tree saved to file "~/Documents/TAS1R1_bootstrap.tre"
+
+Processing of input file "Human_TAS1R3_orthologues_DNA_aligned_nexus" completed.

@@ -1,0 +1,70 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Thu Mar 23 13:05:44 2023]
+[!
+>Data file = Human_TAS1R3_orthologues_DNA_aligned_nexus
+>Bootstrap method with heuristic search:
+>  Number of bootstrap replicates = 500
+>  Starting seed = generated automatically
+>  Number of characters resampled in each replicate = 2679
+>  Optimality criterion = likelihood
+>    All characters have equal weight
+>    Likelihood settings:
+>                  DNA substitution types = 2 (HKY85 variant)
+>                             Ti/tv ratio = 2.51842
+>                       State frequencies = empirical: A=0.151286 C=0.338825 G=0.324343 T=0.185546
+>          Proportion of invariable sites = none
+>                 Rates at variable sites = gamma, shape=0.586191 (4 categories [mean])
+>                    Model correspondence = HKY85+G
+>
+>      Number of distinct data patterns under this model = 666
+>      Molecular clock not enforced
+>      Starting branch lengths obtained using Rogers-Swofford approximation method
+>      Trees with approximate log likelihoods 5% or further from the target score are rejected
+>        without additional iteration
+>      Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20,
+>                                   tolerance=1e-07
+>      Likelihood calculations performed in single precision
+>      Vector processing enabled
+>      Using standard Felsenstein pruning for computing likelihoods
+>      Conditional-likelihood rescaling threshold = 1e-20
+>
+>  Starting tree(s) obtained via neighbor-joining
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+>    Steepest descent option not in effect
+>  Initial 'Maxtrees' setting = 100
+>  Branches collapsed (creating polytomies) if branch length is less than or equal to 1e-08
+>  'MulTrees' option in effect
+>  No topological constraints in effect
+>  Trees are unrooted
+>
+>NOTE: Random-addition-sequence option is ignored when starting trees are obtained using neighbor-
+>      joining.
+>
+>  500 bootstrap replicates completed
+>  Time used = 01:48:46 (CPU time = 01:48:41.4)
+]
+	Translate
+		1 ENSOGAP00000021276_Ogar,
+		2 ENSMICP00000043915_Mmur,
+		3 ENSPSMP00000018490_Psim,
+		4 ENSPCOP00000017626_Pcoq,
+		5 ENSCSAP00000017323_Csab,
+		6 ENSMNEP00000040654_Mnem,
+		7 ENSMMUP00000078066_Mmul,
+		8 ENSPANP00000015259_Panu,
+		9 ENSCATP00000000954_Caty,
+		10 ENSMLEP00000011295_Mleu,
+		11 ENSRBIP00000039642_Rbie,
+		12 ENSRROP00000002352_Rrox,
+		13 ENSPPYP00000002326_Pabe,
+		14 ENSGGOP00000023446_Ggor,
+		15 ENSP00000344411_Hsap,
+		16 ENSPTRP00000044858_Ptro,
+		17 ENSPPAP00000024462_Ppan,
+		18 ENSCJAP00000020529_Cjac,
+		19 ENSSBOP00000021331_Sbbo,
+		20 ENSANAP00000014095_Anan
+		;
+tree 'PAUP_1' = [&U] (1:100,(2:100,3:100,4:100):100,((((5:100,((6:100,7:100):100,(8:100,(9:100,10:100):100):52.033):83.2):100,(11:100,12:100):100):100,(13:100,(14:100,(15:100,(16:100,17:100):100):94.867):100):100):100,((18:100,19:100):63.167,20:100):100):100);
+End;

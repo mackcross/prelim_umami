@@ -1,5 +1,5 @@
       seqfile = Human_TAS1R1_breaks2_2nd_attempt.txt * sequence data filename
-     treefile = Human_TAS1R1_tree_newick.trees * tree file name
+     treefile = TAS1R1_ML.tre * tree file name
 
       outfile = test_output          * main result file name
    
@@ -11,14 +11,14 @@
       seqtype = 1  * 1:codons; 2:AAs; 3:codons-->AAs
     CodonFreq = 2 * 0 : 1/61 each, 1:F1X4, 2:F3X4, 3:codon table
                    * 4:F1x4MG, 5:F3x4MG, 6:FMutSel0, 7:FMutSel
-        model = 2
+        model = 1
                    * models for codons:
                       * 0:one, 1:b, 2:2 or more dN/dS ratios for branches, 6:FromCodon
                    * models for AAs or codon-translated AAs:
                       * 0:poisson, 1:proportional, 2:Empirical, 3:Empirical+F
                       * 6:FromCodon, 7:AAClasses, 8:REVaa_0, 9:REVaa(nr=189)
 
-      NSsites = 2 * 23 24 25 26   * 23 24 25 26 * 0:one w; 1:NearlyNeutral; 2:PositiveSelection; 3:discrete;
+      NSsites = 0 * 23 24 25 26   * 23 24 25 26 * 0:one w; 1:NearlyNeutral; 2:PositiveSelection; 3:discrete;
                    * 4:freqs; 5:gamma; 6:2gamma; 7:beta; 8:beta&w+; 9:beta&gamma;
                    * 10:beta&gamma+1; 11:beta&normal>1; 12:0&2normal>1;
                    * 13:3normal>0; 

@@ -1,4 +1,9 @@
 # INTRODUCTION 
-This is the file which will contain all necessary materials to begin my PAML analysis of TAS1R3. 
+This directory contains the files necessary for PAML input for the TAS1R1 gene. 
 
-03/03/2023: This folder is currently under revision. It contains the script file, alignment file and data file. The script file is being edited in anticipation of future run. The codeml.ctl file has yet to be placed within this document. 
+# METHODS
+The TAS1R1 sequence alignment was opened in Seqotron and exported in Philip format then saved as a .txt file into this directory. Upon the export, it was opened into a text editor. The formatting was adjusted using the mtCDNAape text file as a guide for formatting. The species names were adjusted for ease of reading. 
+
+The maximum likelihood tree generated from the rerun directory was used for this analysis. A copy was placed in this directory for PAML input. The species names were adjusted to match the sequence alignment. 
+
+ERROR: Despite adjusting the format, the following error occurred: Bad option '1' in first line of seqfile. This was adjusted by switching the default txt option to Windows (CRLF) in the alignment text file. 
