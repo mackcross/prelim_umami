@@ -1,40 +1,49 @@
 #NEXUS 
 
-Begin trees;  [Treefile saved Thursday, February 9, 2023 at 3:50:02 PM Central Standard Time]
+Begin trees;  [Treefile saved Thu Mar 23 11:16:58 2023]
 [!
 >Data file = Human_TAS1R3_orthologues_DNA_aligned_nexus
->Bootstrap method with fast-heuristic search:
->  Number of bootstrap replicates = 500
->  Starting seed = generated automatically
->  Number of characters resampled in each replicate = 2679
+>Heuristic search settings:
 >  Optimality criterion = likelihood
 >    All characters have equal weight
 >    Likelihood settings:
 >                  DNA substitution types = 2 (HKY85 variant)
->                             Ti/tv ratio = 2
+>                             Ti/tv ratio = 2.51027
 >                       State frequencies = empirical: A=0.151286 C=0.338825 G=0.324343 T=0.185546
 >          Proportion of invariable sites = none
->                 Rates at variable sites = equal
->                    Model correspondence = HKY85
+>                 Rates at variable sites = gamma, shape=0.587861 (4 categories [mean])
+>                    Model correspondence = HKY85+G
 >
 >      Number of distinct data patterns under this model = 666
 >      Molecular clock not enforced
 >      Starting branch lengths obtained using Rogers-Swofford approximation method
->      Trees with approximate log likelihoods 5% or further from the target score are rejected without additional iteration
->      Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+>      Trees with approximate log likelihoods 5% or further from the target score are rejected
+>        without additional iteration
+>      Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20,
+>                                   tolerance=1e-07
 >      Likelihood calculations performed in single precision
 >      Vector processing enabled
 >      Using standard Felsenstein pruning for computing likelihoods
 >      Conditional-likelihood rescaling threshold = 1e-20
 >
->  Starting tree(s) obtained via stepwise addition with random addition sequence
->  Branch-swapping algorithm: none
+>  Starting tree(s) obtained via stepwise addition
+>    Addition sequence: random
+>    Number of replicates = 100
+>    Starting seed = generated automatically
+>    Number of trees held at each step = 1
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+>    Steepest descent option not in effect
+>  Initial 'Maxtrees' setting = 100
 >  Branches collapsed (creating polytomies) if branch length is less than or equal to 1e-08
+>  'MulTrees' option in effect
 >  No topological constraints in effect
 >  Trees are unrooted
 >
->  500 bootstrap replicates completed
->  Time used = 54.14 sec (CPU time = 54.62 sec)
+>Heuristic search completed
+>  Total number of rearrangements tried = 4979
+>  Score of best tree(s) found = 13143.35
+>  Number of trees retained = 1
+>  Time used = 52.93 sec (CPU time = 52.92 sec)
 ]
 	Translate
 		1 ENSOGAP00000021276_Ogar,
@@ -58,5 +67,5 @@ Begin trees;  [Treefile saved Thursday, February 9, 2023 at 3:50:02 PM Central S
 		19 ENSSBOP00000021331_Sbbo,
 		20 ENSANAP00000014095_Anan
 		;
-tree 'PAUP_1' = [&U] (1:100,(2:100,(3:100,4:100):60.4):99.8,((((5:100,((6:100,7:100):99.6,8:100,(9:100,10:100):99.4):63.8):91.6,(11:100,12:100):99.6):99.6,(13:100,(14:100,(15:100,(16:100,17:100):97.8):81.6):99.4):98):100,((18:100,19:100):58.6,20:100):100):100);
+tree 'PAUP_1' = [&U] (1,((2,3),4),((((5,((6,7),(8,(9,10)))),(11,12)),(13,(14,(15,(16,17))))),((18,19),20)));
 End;

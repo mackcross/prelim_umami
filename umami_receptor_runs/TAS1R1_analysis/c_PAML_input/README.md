@@ -7,3 +7,7 @@ The TAS1R1 sequence alignment was opened in Seqotron and exported in Philip form
 The maximum likelihood tree generated from the rerun directory was used for this analysis. A copy was placed in this directory for PAML input. The species names were adjusted to match the sequence alignment. 
 
 ERROR: Despite adjusting the format, the following error occurred: Bad option '1' in first line of seqfile. This was adjusted by switching the default txt option to Windows (CRLF) in the alignment text file. 
+
+# CONTROL FILES
+Each control file used for every run was saved in the control_files folder. 
+run_on_codeml.ctl = codeml file used for test run 
