@@ -6,9 +6,29 @@
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+# COMMENTS TO INCORPORATIOTE 
+1. What evidence suggests links between umami taste receptor genes and dietary transition? 
+2. what is the supposed functional change in TAS1R1 and R3 that could confer a fitness advantage related to meat eating, so that selection could act on it? For example, are you hypothesizing that the two receptor proteins evolved a higher binding affinity to their ligands, which may have further driven the organism (hominin) towards meat, because it provides more energy or essential nutrient? is there anything known or can be hypothesized about this?
+3. [TAS1R1 and TAS1R3 genes appear to serve several dietary purpose in other primate lineages] so these two receptors are not specific to the unami taste associated with meat. in this case, what's the reason for hypothesizing them being the target of positive selection in the hominids? furthermore, would it alter your hypothesis about which lineages may have experienced selection in these two genes?
+4. [My hypothesis section] since you have so many hypotheses, it sounds like the first step is to perform an exploratory analysis -- build the gene tree and fit a free-omega branch model to empirically assess the level of variation in dN/dS across lineages. this will help guide your hypothesis building
+5. [Given the suggested importance of meat in the hominin lineage, it logically follows that , if thrue, the receptor cirtical for the transduction of meat flavor would experience selection in teh hominin leage] I have trouble seeing the logic - just because these genes encode taste receptors doesn't mean they are targets of selection. selection act upon fitness differences, mediated by functional changes. what is the supposed functional change that could conceivably be targeted by selection? any circumstantial evidence supporting that?
+6. Read and incorporate citations 
+
 # UMAMI RECEPTOR PROJECT
-## INTRODUCTION/BACKGROUND/HYPOTHESES 
-During hominin evolution, it is thought that the introduction of meat into the hominin diet provided a new, calorically rich food source that resulted in a higher daily caloric intake. This increased caloric availability may have facilitated hominin brain evolution, as human brains have intense energetic demands (~20-25% of resting metabolic rate) compared to the average primate (~9%) and the average mammal (~3-5%) (Leonard, 2007). The incorporation of meat in the hominin diet preceded hominin brain expansion (Ferraro, 2013) and, furthermore, other primates such as chimpanzees, bonobos, baboons and capuchins also participate in meat eating behaviors, although not with regularity (Watts, 2020). **To further evaluate the role of meat in hominin evolution, this first part of this project considers the taste receptors responsible for the transduction of the savory “umami” flavor which is associated with human’s perception of meat.** 
+## INTRODUCTION & PROJECT LIMITATIONS 
+During hominin evolution, it has been suggested that the introduction of meat into the hominin diet provided a new, calorically rich food source that resulted in a higher daily caloric intake. The caloric surplus produced from such a dietary transition would have increased the calories available for allocation to expensive organs, such as the brain. Human brains have intense energetic demands (~20-25% of resting metabolic rate) compared to the average primate (~9%) and the average mammal (~3-5%) (Leonard, 2007). Although humans present an extreme example of brain size, it should be noted that, generally, primates are more encephalized than the average mammal. Indeed, across primates, diet and brain size appear to be tightly linked, although researchers debate the dietary drivers of this increased brain size. Recent work has suggested that frugivorous primates have larger brains (DeCasien, 2017), other work has suggested that lipid dense foods such as nuts may be drivers (Izar, 2022). However, the work from DeCasien et al. explored primates through a predominately through a binary of percent folgivorous diet versus percent frugivorous diet, which is not representative of the heterogeneity of the primate diet and ignores primate participation in meat eating behaviors with humans being the most prolific meat eaters. Indeed, early humans appeared to participate in a unique dietary niche of meat exploitation, which may have included not only the intake of lean animal meat but also bone marrow which is rich in lipids (/ ). 
+
+
+Early humans not only ate meat, but also likely utalized bone marrow which is rich in fat. 
+
+
+ Indeed, diet and brain size appear to be tightly linked in primate evolution, although researchers  
+
+potential caloric surplus may have led to caloric surplus that results from regular ingestion of meat  Regular intake of such a calorically dense food could have led to increased caloric surplus duriing hominin evolution and this energy surplus may have 
+
+The incorporation of meat in the hominin diet preceded hominin brain expansion (Ferraro, 2013) and, furthermore, other primates such as chimpanzees, bonobos, baboons and capuchins also participate in meat eating behaviors, although not with regularity (Watts, 2020). However, 
+
+**To further evaluate the role of meat in hominin evolution, this first part of this project considers the taste receptors responsible for the transduction of the savory “umami” flavor which is associated with human’s perception of meat.** 
 
 ## UMAMI RECEPTOR GENES: HUMANS
 Two genes, TAS1R1 and TAS1R3, encode the taste receptors responsible for umami flavor in humans (NOTE: more information concerning the specificity of association between umami and meat will be added for next homework). If a dietary transition towards meat eating was a critical shift in hominin evolution, this may have resulted in positive selection on the TAS1R1 and TAS1R3 genes in the hominin lineage. 
@@ -64,40 +84,29 @@ Following these PAML analyses, I will use R to construct a primate phylogeny whi
 
 
 # REFERENCES
-Bielawski, Joseph P. "Detecting the signatures of adaptive evolution in 
-protein-coding genes." Current protocols in molecular biology. January 15, 
-2013, 101. DOI: https://doi.org/10.1002/0471142727.mb1901s101.
+Bielawski, Joseph P. "Detecting the signatures of adaptive evolution in protein-coding genes." Current protocols in molecular biology. January 15, 2013, 101. DOI: https://doi.org/10.1002/0471142727.mb1901s101.
 
-Bielawski, Joseph P., Jennifer L. Baker, and Joseph Mingrone. “Inference 
-of episodic changes in natural selection acting on protein coding 
-sequences via CODEML.” Current protocols in bioinformatics. June 20, 2016, 
-54. DOI: https://doi.org/10.1002/cpbi.2.
+Bielawski, Joseph P., Jennifer L. Baker, and Joseph Mingrone. “Inference of episodic changes in natural selection acting on protein coding sequences via CODEML.” Current protocols in bioinformatics. June 20, 2016, 54. DOI: https://doi.org/10.1002/cpbi.2.
 
-Ferraro, Joseph V., Thomas W. Plummer, Briana L. Pobiner, James S. Oliver, 
-Laura C. Bishop, David R. Braun, Peter W. Ditchfield et al. “Earliest 
-archaeological evidence of persistent hominin carnivory.” PloS one 8, 
-April 25, 2013, 4. DOI:10.1371/journal.pone.0062174.
+DeCasien, A. R., Williams, S. A., & Higham, J. P. "Primate brain size is predicted by diet but not sociality." Nature ecology & evolution, 2017, 1(5). DOI: https://doi.org/10.1038/s41559-017-0112. 
 
-Leonard, William. R., Josh J. Snodgrass, and Marcia L. Robertson. “Effects 
-of brain evolution on human nutrition and metabolism.” Annu. Rev. Nutr, 
-August 21, 2007, 27. DOI: 10.1146/an- nurev.nutr.27.061406.093659.
+Ferraro, Joseph V., Thomas W. Plummer, Briana L. Pobiner, James S. Oliver, Laura C. Bishop, David R. Braun, Peter W. Ditchfield et al. “Earliest archaeological evidence of persistent hominin carnivory.” PloS one 8, April 25, 2013, 4. DOI:10.1371/journal.pone.0062174.
 
-Toda, Yasuka, et al. "Evolution of the primate gluatamate taste sensor 
-froma  nucleotide sensor." Current Biology. October 25, 2021, 31. 
-DOI:https://doi.org/10.1016/j.cub.2021.08.002. 
+Izar, P., Peternelli-dos-Santos, L., Rothman, J. M., Raubenheimer, D., Presotto, A., Gort, G., ... & Fragaszy, D. M. (2022). "Stone tools improve diet quality in wild monkeys." Current Biology, 2022, 32(18). DOI: https://doi.org/10.1016/j.cub.2022.07.056.
 
-Watts, David P. "Eating eating by nonhuman primates: A review and 
-synthesis." Journal of Human Evolution. October 24, 2020, 149. DOI: 
-Https://doi.org/10.1016/j.jhevol.2020.102882. 
+Leonard, William. R., Josh J. Snodgrass, and Marcia L. Robertson. “Effects of brain evolution on human nutrition and metabolism.” Annu. Rev. Nutr, August 21, 2007, 27. DOI: 10.1146/an- nurev.nutr.27.061406.093659.
 
-Wu, Yonghua, Haifeng Wang, Haitao Wang, and Elisabeth A. Hadly. 
-"Rethinking the origin of primates by reconstructing their diel activity 
-patterns using genetics and morphology." Scientific Reports, September 19 
-2017, 7(1). DOI: https://doi.org/10.1038/s41598-017-12090-3. 
+Toda, Yasuka, et al. "Evolution of the primate gluatamate taste sensor from a nucleotide sensor." Current Biology. October 25, 2021, 31. DOI:https://doi.org/10.1016/j.cub.2021.08.002. 
 
-Yang, Ziheng. "PAML: a program package for phylogenetic analysis by 
-Maximum likelihood." Computer applications in the biosciences, October 1, 
-1997, 13(5). DOI: 10.1093/bioinformatics/13.5.555. 
+Watts, David P. "Eating eating by nonhuman primates: A review and synthesis." Journal of Human Evolution. October 24, 2020, 149. DOI:Https://doi.org/10.1016/j.jhevol.2020.102882. 
+
+Wu, Yonghua, Haifeng Wang, Haitao Wang, and Elisabeth A. Hadly. "Rethinking the origin of primates by reconstructing their diel activity patterns using genetics and morphology." Scientific Reports, September 19 2017, 7(1). DOI: https://doi.org/10.1038/s41598-017-12090-3. 
+
+Zhang, Jianzhi. “Parallel Adaptive Origins of Digestive RNases in Asian and African Leaf Monkeys.” Nature Genetics, July 2006, 38(7). DOI: https://doi.org/10.1038/ng1812.
+
+Yang, Ziheng. "PAML: a program package for phylogenetic analysis by Maximum likelihood." Computer applications in the biosciences, October 1, 1997, 13(5). DOI: 10.1093/bioinformatics/13.5.555. 
+
+Yang, Ziheng. “Likelihood Ratio Tests for Detecting Positive Selection and Application to Primate Lysozyme Evolution.” Molecular Biology and Evolution, May 1998, 15(5). https://doi.org/10.1093/oxfordjournals.molbev.a025957.
 
 
 # APPENDIX 
