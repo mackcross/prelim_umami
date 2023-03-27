@@ -6,31 +6,36 @@
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-# COMMENTS TO INCORPORATIOTE 
-1. What evidence suggests links between umami taste receptor genes and dietary transition? 
-2. what is the supposed functional change in TAS1R1 and R3 that could confer a fitness advantage related to meat eating, so that selection could act on it? For example, are you hypothesizing that the two receptor proteins evolved a higher binding affinity to their ligands, which may have further driven the organism (hominin) towards meat, because it provides more energy or essential nutrient? is there anything known or can be hypothesized about this?
-3. [TAS1R1 and TAS1R3 genes appear to serve several dietary purpose in other primate lineages] so these two receptors are not specific to the unami taste associated with meat. in this case, what's the reason for hypothesizing them being the target of positive selection in the hominids? furthermore, would it alter your hypothesis about which lineages may have experienced selection in these two genes?
-4. [My hypothesis section] since you have so many hypotheses, it sounds like the first step is to perform an exploratory analysis -- build the gene tree and fit a free-omega branch model to empirically assess the level of variation in dN/dS across lineages. this will help guide your hypothesis building
-5. [Given the suggested importance of meat in the hominin lineage, it logically follows that , if thrue, the receptor cirtical for the transduction of meat flavor would experience selection in teh hominin leage] I have trouble seeing the logic - just because these genes encode taste receptors doesn't mean they are targets of selection. selection act upon fitness differences, mediated by functional changes. what is the supposed functional change that could conceivably be targeted by selection? any circumstantial evidence supporting that?
-6. Read and incorporate citations 
-
 # UMAMI RECEPTOR PROJECT
 ## INTRODUCTION & PROJECT LIMITATIONS 
-During hominin evolution, it has been suggested that the introduction of meat into the hominin diet provided a new, calorically rich food source that resulted in a higher daily caloric intake. The caloric surplus produced from such a dietary transition would have increased the calories available for allocation to expensive organs, such as the brain. Human brains have intense energetic demands (~20-25% of resting metabolic rate) compared to the average primate (~9%) and the average mammal (~3-5%) (Leonard, 2007). Although humans present an extreme example of brain size, it should be noted that, generally, primates are more encephalized than the average mammal. Indeed, across primates, diet and brain size appear to be tightly linked, although researchers debate the dietary drivers of this increased brain size. Recent work has suggested that frugivorous primates have larger brains (DeCasien, 2017), other work has suggested that lipid dense foods such as nuts may be drivers (Izar, 2022). However, the work from DeCasien et al. explored primates through a predominately through a binary of percent folgivorous diet versus percent frugivorous diet, which is not representative of the heterogeneity of the primate diet and ignores primate participation in meat eating behaviors with humans being the most prolific meat eaters. Indeed, early humans appeared to participate in a unique dietary niche of meat exploitation, which may have included not only the intake of lean animal meat but also bone marrow which is rich in lipids (/ ). 
+During hominin evolution, it has been suggested that the introduction of meat into the hominin diet provided a new, calorically rich food source that resulted in a higher daily caloric intake. Human brains have intense energetic demands (~20-25% of resting metabolic rate) compared to the average primate (~9%) and the average mammal (~3-5%) (Leonard, 2007) and the caloric surplus produced from a dietary transition to regular meat eating may have increased the calories available to allocation to expensive organs, such as the brain. Although humans present an extreme example of brain size, it should be noted that, generally, primates are more encephalized than the average mammal. Indeed, across primates, diet and brain size appear to be tightly linked, although researchers debate the dietary drivers of this increased brain size. Recent work has suggested that frugivorous primates have larger brains (DeCasien, 2017), other work has suggested that lipid dense foods such as nuts may be drivers (Izar, 2022). However, the work from DeCasien et al. explored primates through a predominately through a binary of percent folgivorous diet versus percent frugivorous diet, which is not representative of the heterogeneity of the primate diet and ignores primate participation in meat eating behaviors with humans being the most prolific meat eaters. Some primates are known to eat meat semi-frequently, such as the chimpanzee, baboon and Capuchin, although many primates have been observed with occasional, opportunistic meat eating of small vertebrates such as amphibians, birds and bats (Watts, 2020). Despite the presence of meat eating across primates, its typically occasional and humans appear to be outliers in terms of this behavior. Indeed, early humans appeared to participate in a unique dietary niche of meat exploitation, which may have included not only the intake of animal meat but also bone marrow which is rich in lipids (/ ). 
 
+Both humans and non-human primates incorporate meat into their diet, however, humans 1) participate in meat eating behaviors with more regularity than other primates and 2) participate in specific, extractive behaviors such as 
+
+These two aspects to human meat eating firmly divide ... a different in kind, rather than degree. 
 
 Early humans not only ate meat, but also likely utalized bone marrow which is rich in fat. 
-
-
- Indeed, diet and brain size appear to be tightly linked in primate evolution, although researchers  
-
-potential caloric surplus may have led to caloric surplus that results from regular ingestion of meat  Regular intake of such a calorically dense food could have led to increased caloric surplus duriing hominin evolution and this energy surplus may have 
 
 The incorporation of meat in the hominin diet preceded hominin brain expansion (Ferraro, 2013) and, furthermore, other primates such as chimpanzees, bonobos, baboons and capuchins also participate in meat eating behaviors, although not with regularity (Watts, 2020). However, 
 
 **To further evaluate the role of meat in hominin evolution, this first part of this project considers the taste receptors responsible for the transduction of the savory “umami” flavor which is associated with human’s perception of meat.** 
 
+
+
+
+
+
+
 ## UMAMI RECEPTOR GENES: HUMANS
+1. What evidence suggests links between umami taste receptor genes and dietary transition? 
+2. what is the supposed functional change in TAS1R1 and R3 that could confer a fitness advantage related to meat eating, so that selection could act on it? For example, are you hypothesizing that the two receptor proteins evolved a higher binding affinity to their ligands, which may have further driven the organism (hominin) towards meat, because it provides more energy or essential nutrient? is there anything known or can be hypothesized about this?
+3. [TAS1R1 and TAS1R3 genes appear to serve several dietary purpose in other primate lineages] so these two receptors are not specific to the unami taste associated with meat. in this case, what's the reason for hypothesizing them being the target of positive selection in the hominids? furthermore, would it alter your hypothesis about which lineages may have experienced selection in these two genes?
+5. [Given the suggested importance of meat in the hominin lineage, it logically follows that , if thrue, the receptor cirtical for the transduction of meat flavor would experience selection in teh hominin leage] I have trouble seeing the logic - just because these genes encode taste receptors doesn't mean they are targets of selection. selection act upon fitness differences, mediated by functional changes. what is the supposed functional change that could conceivably be targeted by selection? any circumstantial evidence supporting that?
+
+
+4. [My hypothesis section] since you have so many hypotheses, it sounds like the first step is to perform an exploratory analysis -- build the gene tree and fit a free-omega branch model to empirically assess the level of variation in dN/dS across lineages. this will help guide your hypothesis building
+6. Read and incorporate citations 
+
 Two genes, TAS1R1 and TAS1R3, encode the taste receptors responsible for umami flavor in humans (NOTE: more information concerning the specificity of association between umami and meat will be added for next homework). If a dietary transition towards meat eating was a critical shift in hominin evolution, this may have resulted in positive selection on the TAS1R1 and TAS1R3 genes in the hominin lineage. 
 
 It is important to note, however, that the sole analysis of these umami receptor genes is not sufficient to provide strong support or rejection of the importance of meat in the hominin diet. Rather, the exploration of TAS1R1 and TAS1R3 in this analysis is a "first run" of a larger analysis to be completed in the upcoming summer where a collection of genes related to protein digestion will undergo similar analyses. While its likely the inclusion of additional genes will provide a more complete exploration of human's relationship with meat, these future steps are critical as the TAS1R1 and TAS1R3 genes appear to serve several dietary purposes in other primate lineages beyond simple transduction of umami flavor. 
