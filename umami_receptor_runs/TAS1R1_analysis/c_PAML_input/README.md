@@ -8,6 +8,8 @@ The maximum likelihood tree generated from the rerun directory was used for this
 
 ERROR: Despite adjusting the format, the following error occurred: Bad option '1' in first line of seqfile. This was adjusted by switching the default txt option to Windows (CRLF) in the alignment text file. 
 
+ERROR: The first run returned an error which stated "Error: end of tree file...". To fix this error, I created a new tree file and adjusted the format so it followed the formatting of the mtCDNAape tree as discussed above. 
+
 # CONTROL FILES
 Each control file used for every run was saved in the control_files folder. 
 run_on_codeml.ctl = codeml file used for test run 

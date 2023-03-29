@@ -1,5 +1,5 @@
       seqfile = Human_TAS1R3_orthologues_DNA_aligned.txt  * sequence data filename
-     treefile = TAS1R3_ML.tre  * tree file name
+     treefile = TAS1R3_revised_tree_following_error_message.txt  * tree file name
 
       outfile = test_output          * main result file name
    

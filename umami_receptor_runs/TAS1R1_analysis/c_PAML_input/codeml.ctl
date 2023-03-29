@@ -1,5 +1,5 @@
       seqfile = Human_TAS1R1_breaks2_2nd_attempt.txt * sequence data filename
-     treefile = TAS1R1_ML.tre * tree file name
+     treefile = TAS1R1_revised_tree_following_error_message.txt * tree file name
 
       outfile = test_output          * main result file name
    
