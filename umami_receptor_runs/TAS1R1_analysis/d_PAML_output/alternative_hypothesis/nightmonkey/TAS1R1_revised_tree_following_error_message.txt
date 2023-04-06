@@ -1,0 +1,9 @@
+23 1
+
+(1.Tarsier,(((2.Bolivan_squirrel_monkey,4.Callithrix_jacchus),3.Mas_night_monkey)#1,(((5.Black_snub_nose_monkey,6.Golden_snub_nose_monkey),(7.Vervet_AGM,(((8.Crab_eating_macaque,9.Pig_tailed_macaque,10.Macaque),(12.Sooty_mangabey,13.Olive_baboon)),11.Drill))),(14.Gibbon,(15.Orangutan,(16.Human,(17.Gorilla,(18.Chimpanzee,19.Bonobo))))))),(20.Bushbaby,(21.Greater_bamboo_lemur,(22.Shifaka,23.Mouse_lemur))));
+
+// end of file.  the rest of the file are notes.
+
+
+
+
