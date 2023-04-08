@@ -1,0 +1,3 @@
+# PHYLOGENETIC TREE GENERATION
+
+Initially, RAxML was attempted to generate a phylogenetic tree, but there were issues with tree generation, so it was decided to use PAUP instead. The file, initial_run, contains the data generated from the first PAUP run. This was ran on the PAUP GUI. However, only a consensus sequence was obtained at this time, which is inadequate for PAML analyses. As a result, a rerun was required of the phylogenetic tree in PAUP. For the rerun, PAUP's command line was used instead of its GUI to increase the reproducibility of the script. All materials used for input and its generated output are contained with in the ML_rerun file. The ML_rerun data was used in the subsequent PAML analyses. 

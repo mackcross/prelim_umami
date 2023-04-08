@@ -1,5 +1,8 @@
 # PAML INPUT
-This file contains the files which were PAML output. They are divided by runs. 
+This file contains the TAS1R1 files which were PAML output. T
 
-**first_run:** Contains the first test run with TAS1R1_ML.tre. Returned an error message. 
-**second_run:** Used TAS1R1_revised_tree_following_error_message.txt as the tree file and it returned without error message. 
+There were multiple runs, especially initially to test functionality. These runs were placed in the test_runs directory and not used in analyses. 
+
+The alt_hypothesis directory contains the runs which were conducted under the alternative hypothesis which allowed omega to vary. Please refer to the PAML_input folder for the codeml.ctl file which set the parameters for these runs. 
+
+The null_hypothesis directory contains the runs which were conducted under the null hypothesis which fixed omega to 1. Please refer to the PAML_input folder for the codeml.ctl file which set the parameters for these runs. 
