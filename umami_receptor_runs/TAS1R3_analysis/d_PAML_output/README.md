@@ -1,5 +1,5 @@
 # PAML INPUT
-This file contains the TAS1R1 files which were PAML output. T
+This file contains the TAS1R1 files which were PAML output. 
 
 There were multiple runs, especially initially to test functionality. These runs were placed in the test_runs directory and not used in analyses. 
 

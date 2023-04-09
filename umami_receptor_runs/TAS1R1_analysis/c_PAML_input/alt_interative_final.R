@@ -1,9 +1,8 @@
 # NOTE: This is the script for the TAS1R1 PAML sequence run for the alternative 
-# model. When this script was run, both the tree, alignment and codeml file 
-# were placed within the working directory (bin directory in command line PAML 
-# program) where the codeml file contained the settings for the alternative 
-# branch-site model. This .R file iteratively changes the foreground branch for 
-# each run so all species have undergo the alternative model 
+# model. When this script was run, all of the trees, the alignment and codeml 
+# file were placed within the working directory (bin directory in command 
+# line PAML program) where the codeml file contained the settings for the 
+# alternative branch-site model. 
 
 # RUN PAML THROUGH THIS SCRIPT 
 setwd("~/Documents/paml-4.10.6/bin/") # Set working directory
