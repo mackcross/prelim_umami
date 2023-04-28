@@ -1,8 +1,0 @@
-20 1
-
-(1.Bushbaby,((2.Mouse_lemur,3.Bamboo_lemur),4.Shifaka),((((5.Vervet,((6.Pig_tailed_macaque,7.Macaque),(8.Olive_baboon,(9.Sooth_mangabey,10.Drill)))),(11.Black_snub_nose,12.Golden_snub_nose)),(13.Orangutan,(14.Gorilla,(15.Human#1,(16.Chimp,17.Bonobo))))),((18.Marmoset,19.Squirrel_monkey),20.Night_monkey)));
-
-// end of file.  the reast of the file are notes.
-
-
-
