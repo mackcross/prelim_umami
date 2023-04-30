@@ -149,6 +149,9 @@ p_value8 <- 1 - pchisq(fmutsel_pan_statistic_r3, freedom) # calculate p-value
 resultsdf8 <- data.frame(name = "fmutsel_pan_alt_TAS1R3", likelihood_ratio_test = fmutsel_pan_statistic_r3, p_value = p_value8)
 resultsdf <- rbind(resultsdf, resultsdf8)
 
+#####################################################################################################################
+write.csv(resultsdf, file = "results.csv", row.names = FALSE)
+
 ```
 
 
