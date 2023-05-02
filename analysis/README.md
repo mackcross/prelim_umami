@@ -1,0 +1,2 @@
+# ANALYSIS
+This directory contains the R scripts for analyzing PAML output as well as for visualizing phylogenies. There are also copies of the output of these scripts (results.csv, tas1r1.png and tas1r3.png).
